@@ -7,9 +7,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="youtube.spring.TestBean">
-        <constructor-arg value="Shaurma"/>
+    <bean id="musicBean"
+          class="youtube.spring.ClassicalMusic">
     </bean>
 
 </beans>
